@@ -208,11 +208,11 @@ hr{
   background-color:whitesmoke;
 }
 
-#onehead{
+#onehead {
   margin-top: 14px;
   margin-left: 140px;
-  
 }
+
 
 #two{
   text-align: center;
@@ -288,9 +288,7 @@ height: 600px;
 margin-right: 40px;
 }
 
-/* .product1-card:hover{
-box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-} */
+
 
 .product1-image {
 position: relative;
@@ -541,7 +539,7 @@ text-align: center;
 
 .sixp{
 font-size: 15px;
-line-height: 8px;
+line-height: 18px;
 }
 
 #five div:hover{
@@ -970,4 +968,114 @@ margin-top: 30px;
 .collection:nth-child(3) {
   grid-column: span 2;
   margin-bottom: 10px;
+}
+
+
+
+/* responsive */
+@media all and (min-width: 401px) and (max-width: 800px) {
+ 
+
+  #five{
+    /* border:1px solid red; */
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    }
+    #onehead{
+      font-size: 10px;
+      text-align: center;
+      margin-left: 10px;
+
+    }  
+    #twop{
+      text-align: center;
+      line-height: 20px;
+    }
+    #threeone{
+      width:80%;
+    }
+    
+    #threeone img{
+      height:50%;
+      width:100%;
+      margin-top: 180px;
+    }
+    .buy{
+      height:30px;
+      width:100px;
+      padding:3px;
+      color: white;
+      margin: auto;
+
+      margin-top: 10px;
+      cursor: pointer;
+      }
+    .buy div{
+      margin: auto;
+      margin-top: 7px;
+      text-align: center;
+      }
+      .sixp{
+        font-size: 15px;
+        line-height: 18px;
+        }
+}
+/* Small screens */
+@media all and (min-width: 100px) and (max-width: 400px) {
+  #five{
+    /* border:1px solid red; */
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap:20px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    }
+    #onehead{
+      font-size: 14px;
+      text-align: center;
+      margin-left: 30px;
+    }
+    #twop{
+      text-align: center;
+      line-height: 20px;
+    }
+    #threeone{
+      width:50%;
+    }
+    
+    #threeone img{
+      height:40%;
+      width:100%;
+      margin-top: 150px;
+    }
+    .buy{
+      /* border:1px solid black; */
+      height:30px;
+      width:100px;
+      padding:3px;
+      background-color: black;
+      color: white;
+      margin: auto;
+      margin-top: 10px;
+      /* margin-left: 100px; */
+      cursor: pointer;
+      }
+      
+      .buy div{
+      margin-top: 7px;
+      text-align: center;
+      }
+      .sixp{
+        font-size: 15px;
+        line-height: 16px;
+        }
+     
+    
 }
