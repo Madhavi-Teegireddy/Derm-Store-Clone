@@ -1,6 +1,6 @@
 # Derm-Store-Clone
 
-# Deployed live link
+## Deployed live link
 - https://dermstore-clone-chi.vercel.app/
 
 # Project Details 
